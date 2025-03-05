@@ -31,23 +31,7 @@ const Navbar = () => {
             <span aria-hidden="true"></span>
           </button>
         </div>
-        <div id="" className={`navbar-menu ${isActive ? "is-active" : ""}`}>
-          <div className="navbar-end">
-            <div className="navbar-item">
-              <NavbarItem
-                href="https://nathanfretz.me"
-                innerText="Nathan Fretz"
-                handleClose={() => setIsActive(false)}
-              />
-              <NavbarItem href="https://github.com/nmfretz" innerText="Github" handleClose={() => setIsActive(false)} />
-              <NavbarItem
-                href="https://twitter.com/nmfretz"
-                innerText="Twitter"
-                handleClose={() => setIsActive(false)}
-              />
-            </div>
-          </div>
-        </div>
+        
       </nav>
     </>
   );

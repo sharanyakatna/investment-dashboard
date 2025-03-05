@@ -21,14 +21,15 @@ const CurrencySelector = (props) => {
           <div className="control">
             <div className="select">
               <select className="custom-currency-selector" value={userCurrency} onChange={handleCurrencyChange}>
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
                 <option value="AUD">AUD</option>
-                <option value="CAD">CAD</option>
                 <option value="CNY">CNY</option>
                 <option value="EUR">EUR</option>
                 <option value="NZD">NZD</option>
                 <option value="RUB">RUB</option>
                 <option value="JPY">JPY</option>
-                <option value="USD">USD</option>
+                <option value="CAD">CAD</option>
                 <option value="KRW">KRW</option>
               </select>
             </div>

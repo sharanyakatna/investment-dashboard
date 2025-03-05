@@ -19,7 +19,8 @@ app.use("/currency", currencyRouter);
 const financialsRouter = require("./routes/financials");
 app.use("/financials", financialsRouter);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
+
 app.listen(PORT, () => {
   console.log(`listening at port:${PORT}`);
-});
+});0
